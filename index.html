@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+        <title>Length Converter</title>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link type="text/css" rel="stylesheet" href="styles.css"/>
+        
+	</head>
+	
+	<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h1 class="display-4 text-center">Length Converter</h1>
+                <form>
+                    <div class="form-group">
+                        <input 
+                        id="mInput"
+                        type="number"
+                        class="form-control form-control-lg"
+                        placeholder="Enter length in meters...">
+                    </div>
+                </form>
+                <div id="output">
+
+                <div class="card bg-success mb-3">
+                        <div class="card-block">
+                            <h4>Km </h4>
+                            <div id="kmOutput"></div>
+                        </div>
+                    </div>
+
+                    <div class="card bg-warning mb-3">
+                        <div class="card-block">
+                            <h4>cm </h4>
+                            <div id="cmOutput"></div>
+                        </div>
+                    </div>
+
+                    <div class="card bg-info mb-3">
+                        <div class="card-block">
+                            <h4>mm </h4>
+                            <div id="mmOutput"></div>
+                        </div>
+                    </div>
+
+                    <div class="card bg-secondary mb-3">
+                        <div class="card-block">
+                            <h4>mile </h4>
+                            <div id="miOutput"></div>
+                        </div>
+                    </div>
+
+                    <div class="card bg-danger mb-3">
+                        <div class="card-block">
+                            <h4>ft </h4>
+                            <div id="ftOutput"></div>
+                        </div>
+                    </div>
+
+                    <div class="card bg-primary mb-3">
+                        <div class="card-block">
+                            <h4>inch </h4>
+                            <div id="inOutput"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+    </body>
+
+</html>
